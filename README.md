@@ -1,1 +1,1 @@
-# leetcode-daily-tracker-bot
+leetcode-daily-tracker
