@@ -164,7 +164,7 @@ Uses **GitHub Actions** for scheduling:
 leetcode-reminder-bot/
 ├── .github/
 │   └── workflows/
-│       └── reminder.yml              # GitHub Actions schedule
+│       └── reminder.yaml              # GitHub Actions schedule
 ├── .gitignore                        # Exclude secrets
 ├── config.py                         # Configuration constants
 ├── main.py                           # Core bot logic
@@ -190,7 +190,7 @@ leetcode-reminder-bot/
 Pick one of these options:
 
 **Option 1: Update workflow cron entries**
-- Copy `.github/workflows/reminder.yml`
+- Copy `.github/workflows/reminder.yaml`
 - Calculate UTC cron times for your timezone
 - Replace cron values and deploy
 
@@ -199,7 +199,7 @@ Pick one of these options:
 - Update this README accordingly
 
 **Option 3: Use an LLM** (Easiest! 🤖)
-- Copy `.github/workflows/reminder.yml`
+- Copy `.github/workflows/reminder.yaml`
 - Ask an LLM to convert cron times to your timezone
 - Paste the converted cron entries back
 
@@ -208,7 +208,7 @@ All options preserve UTC-based streak logic while matching your local schedule.
 ### 📋 Copy-Paste Prompt for LLM Timezone Conversion
 
 ```
-I have a GitHub Actions workflow for a LeetCode reminder bot. The schedule is written in IST UTC+5:30 in `.github/workflows/reminder.yml`, but I want the reminder times converted to my local timezone.
+I have a GitHub Actions workflow for a LeetCode reminder bot. The schedule is written in IST UTC+5:30 in `.github/workflows/reminder.yaml`, but I want the reminder times converted to my local timezone.
 
 Please do the following:
 1. Read the full workflow file.
@@ -531,7 +531,7 @@ Small doc improvements, badges, typo fixes, and readability changes are great fi
 ### Need Help with Timezone Conversion?
 
 If you're unsure how to convert workflow cron times to your timezone:
-- Copy `.github/workflows/reminder.yml` and paste it into an LLM prompt asking for conversion
+- Copy `.github/workflows/reminder.yaml` and paste it into an LLM prompt asking for conversion
 - Or open an issue and tell us your timezone - we'll prepare a converted workflow for you!
 
 ---
