@@ -169,9 +169,12 @@ leetcode-reminder-bot/
 ├── config.py                         # Configuration constants
 ├── main.py                           # Core bot logic
 ├── requirements.txt                  # Python dependencies
+├── CHANGELOG.md                      # Release history
 ├── .env.example                      # Template for secrets
 ├── .env                             # Local secrets (git-ignored)
 └── README.md                        # This file
+
+
 ```
 
 ---
