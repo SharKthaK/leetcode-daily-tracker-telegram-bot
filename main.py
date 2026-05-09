@@ -304,6 +304,9 @@ def get_reminder_level():
         return "last-chance"
 
     if h == 4:
+        return "very-last-chance"
+
+    if h == 5 and m >= 29:
         return "streak-lost"
 
     return "unknown"
@@ -365,6 +368,9 @@ def build_message(level, streak):
 
         "last-chance":
             f"🚨🚨🚨🚨🚨🚨🚨*LAST CHANCE*\n\nFinal opportunity to save your streak.",
+        "very-last-chance":
+            f"🚨🚨🚨🚨🚨🚨🚨🚨*VERY LAST CHANCE*\n\nOnly 1.5 hours left! Solve NOW to save your *{streak}-day* streak!",
+
 
         "streak-lost":
             f"🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨🚨*STREAK LOST*\n\nNo accepted UTC-day submission found.\nYour streak has been reset to 0."
