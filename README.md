@@ -1,4 +1,4 @@
-# 🤖 LeetCode Daily Tracker Bot using GitHub Actions
+# 🤖 LeetCode Daily Tracker Telegram Bot using GitHub Actions
 
 [![Python](https://img.shields.io/badge/python-3.11-blue?style=for-the-badge)](https://www.python.org/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Free%20CI-orange?style=for-the-badge)](https://github.com/actions)
