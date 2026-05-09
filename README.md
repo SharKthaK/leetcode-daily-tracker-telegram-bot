@@ -236,7 +236,7 @@ My timezone is: [PASTE YOUR TIMEZONE HERE]
 ```bash
 git https://github.com/SharKthaK/leetcode-daily-tracker-telegram-bot
 
-cd leetcode-daily-tracker-bot
+cd leetcode-daily-tracker-telegram-bot
 ```
 
 ---
@@ -278,7 +278,7 @@ That number is your **CHAT_ID**.
 ### Step 5️⃣: Create MongoDB Atlas Cluster
 
 1. Create free cluster: [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register)
-2. Create database user
+2. Create database user and password
 3. Allow network access
 4. Copy MongoDB URI
 
