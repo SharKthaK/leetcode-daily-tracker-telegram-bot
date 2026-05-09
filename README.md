@@ -234,7 +234,7 @@ My timezone is: [PASTE YOUR TIMEZONE HERE]
 ### Step 1️⃣: Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/leetcode-daily-tracker-bot.git
+git https://github.com/SharKthaK/leetcode-daily-tracker-telegram-bot
 
 cd leetcode-daily-tracker-bot
 ```
@@ -338,10 +338,10 @@ git init
 
 git add .
 
-git commit -m "Production ready LeetCode reminder bot"
+git commit -m "Production ready LeetCode reminder Telegram Bot"
 ```
 
-Connect repository:
+Connect the repository by creating a repository in your own GitHub account. The repository can be public or private:
 
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
@@ -569,6 +569,6 @@ If you're unsure how to convert workflow cron times to your timezone:
 
 ### ⭐ If this project helped you, please consider giving it a star!
 
-**[⭐ Star on GitHub](https://github.com/SharKthaK/leetcode-daily-tracker-bot)** • **[📧 Contact](mailto:sarthak@vacantvectors.com)** • **[🌐 Portfolio](https://sarthakchakraborty.in)**
+**[⭐ Star on GitHub](https://github.com/SharKthaK/leetcode-daily-tracker-telegram-bot)** • **[v1.0.0](https://github.com/SharKthaK/leetcode-daily-tracker-telegram-bot/blob/main/CHANGELOG.md)** • **[📧 Contact](mailto:sarthak@vacantvectors.com)** • **[🌐 Portfolio](https://sarthakchakraborty.in)**
 
 </div>
