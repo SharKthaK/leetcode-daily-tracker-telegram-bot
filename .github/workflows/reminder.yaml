@@ -27,6 +27,9 @@ on:
     # 4 AM IST
     - cron: '30 22 * * *'
 
+    # 5:29 AM IST
+    - cron: '59 23 * * *'
+
   workflow_dispatch:
 
 jobs:
